@@ -29,7 +29,7 @@ export default function Home() {
     }, 4500);
   }, [scope.current]);
 
-  const words = 'Hello! I am Sandushan';
+  const words = 'Hello! I am Ihill Dewpura';
   return (
     <main className="min-h-screen w-full">
       <Providers>
