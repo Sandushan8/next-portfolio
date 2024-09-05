@@ -3,42 +3,91 @@ import { motion } from 'framer-motion';
 export default function Skills() {
   const projects = [
     {
-      title: 'Stripe',
+      title: 'React JS',
       description:
-        'A technology company that builds economic infrastructure for the internet.',
-      link: 'https://stripe.com',
+        'Developed and maintained dynamic, responsive web applications with an emphasis on performance and user experience.',
+      link: 'https://react.dev/',
     },
     {
-      title: 'Netflix',
+      title: 'Next JS',
       description:
-        'A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.',
-      link: 'https://netflix.com',
+        'Built server-side rendered applications with enhanced SEO and improved loading times, leveraging static site generation.',
+      link: 'https://nextjs.org/',
     },
     {
-      title: 'Google',
+      title: 'React Native',
       description:
-        'A multinational technology company that specializes in Internet-related services and products.',
-      link: 'https://google.com',
+        'Created cross-platform mobile applications with shared codebases, ensuring consistency across iOS and Android devices.',
+      link: 'https://reactnative.dev/',
     },
     {
-      title: 'Meta',
+      title: 'Node JS',
       description:
-        "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-      link: 'https://meta.com',
+        'Implemented server-side logic and APIs for scalable, high-performance web applications.',
+      link: 'https://nodejs.org/en',
     },
     {
-      title: 'Amazon',
+      title: 'Typescript',
       description:
-        'A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.',
-      link: 'https://amazon.com',
+        'Enhanced code quality and maintainability by introducing static typing in JavaScript projects.',
+      link: 'https://www.typescriptlang.org/',
     },
     {
-      title: 'Microsoft',
+      title: 'Redux',
       description:
-        'A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.',
-      link: 'https://microsoft.com',
+        'Managed complex state logic in large-scale applications, ensuring predictable behavior and easier debugging.',
+      link: 'https://redux.js.org/',
+    },
+    {
+      title: 'Socket.io',
+      description:
+        'Built real-time, bidirectional communication between clients and servers for chat applications and live updates.',
+      link: 'https://socket.io/',
+    },
+    {
+      title: 'CSS',
+      description:
+        'Styled web applications with custom layouts, animations, and responsive designs, ensuring a polished user interface.',
+      link: 'https://devdocs.io/css/',
+    },
+    {
+      title: 'Material UI',
+      description:
+        'Integrated Material Design components to create consistent, modern, and user-friendly interfaces.',
+      link: 'https://mui.com/material-ui/',
+    },
+    {
+      title: 'Tailwind CSS',
+      description:
+        'Utilized utility-first CSS to rapidly build custom designs without writing traditional CSS.',
+      link: 'https://tailwindcss.com/',
+    },
+    {
+      title: 'SQL',
+      description:
+        'Designed and managed relational databases, writing optimized queries for data retrieval and manipulation.',
+      link: 'https://www.postgresql.org/docs/current/sql.html',
+    },
+    {
+      title: 'NoSQL',
+      description:
+        'Worked with NoSQL databases to handle large volumes of unstructured data and provide high availability.',
+      link: 'https://www.mongodb.com/docs/',
+    },
+    {
+      title: 'Git',
+      description:
+        'Utilized Git for version control, managing code changes, and collaborating effectively with team members.',
+      link: 'https://docs.github.com/en',
+    },
+    {
+      title: 'Nest JS',
+      description:
+        'Developed robust, maintainable backend services with Nest JS, following a modular and testable architecture.',
+      link: 'https://docs.nestjs.com/',
     },
   ];
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -50,7 +99,7 @@ export default function Skills() {
       <h1 className="text-center text-[30px] text-white md:text-left md:text-[40px]">
         Skills
       </h1>
-      <div className="pt-[150px]">
+      <div>
         <HoverEffect items={projects} />
       </div>
     </motion.div>

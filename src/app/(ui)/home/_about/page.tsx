@@ -1,5 +1,6 @@
 import { timeDifference } from '@/lib/utils';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 export default function About() {
   return (
     <motion.div
@@ -97,7 +98,13 @@ export default function About() {
           </div>
         </div>
         <div className="w-full p-[20px] pt-[90px] md:w-1/2 md:p-10">
-          <div className="h-[400px] w-full rounded-3xl bg-cyan-200 md:h-[600px]"></div>
+          <Image
+            src={'/profile.jpg'}
+            alt="profile"
+            width={1000}
+            height={1000}
+            className="h-[400px] w-full rounded-3xl bg-cyan-200 md:h-[600px]"
+          />
         </div>
       </div>
     </motion.div>
