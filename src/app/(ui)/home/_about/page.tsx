@@ -19,10 +19,10 @@ export default function About() {
             Hi there!
           </p>
           <p className="hidden pt-2 text-[18px] md:block md:text-[22px]">
-            I'm Ihill Dewpura
+            I&apos;m Ihill Dewpura
           </p>
           <p className="pt-2 text-[18px] md:hidden">
-            Hi there! I'm Ihill Dewpura
+            Hi there! I&apos;m Ihill Dewpura
           </p>
           <p className="pt-2 text-[18px] md:text-[22px]">
             A curious Full Stack Developer who loves crafting digital wonders
@@ -101,9 +101,9 @@ export default function About() {
           <Image
             src={'/profile.jpg'}
             alt="profile"
-            width={1000}
-            height={1000}
-            className="h-[400px] w-full rounded-3xl bg-cyan-200 md:h-[600px]"
+            width={2000}
+            height={2000}
+            className="h-[400px] w-full rounded-3xl bg-cyan-200 mix-blend-screen md:h-[600px]"
           />
         </div>
       </div>
